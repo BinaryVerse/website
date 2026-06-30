@@ -12,6 +12,7 @@ permissions:
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
+    environment: github-pages
 
     steps:
       - name: Checkout code
@@ -42,3 +43,4 @@ jobs:
         with:
           folder: dist # The folder the action will deploy
           branch: main # The branch the action will push the dist files to
+          cname: bversetech.com
