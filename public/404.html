@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Binaryverse</title>
+    <script>
+      // GitHub Pages SPA redirect: redirects all 404s back to index.html
+      // preserving the path as a query parameter for the SPA router to handle
+      const segment = 1; // number of path segments to keep (repo name for project pages, 0 for user/org pages)
+      const loc = window.location;
+      loc.replace(
+        loc.protocol + '//' + loc.hostname + (loc.port ? ':' + loc.port : '') +
+        loc.pathname.split('/').slice(0, 1 + segment).join('/') + '/?/' +
+        loc.pathname.slice(1).split('/').slice(segment).join('/').replace(/&/g, '~and~') +
+        (loc.search ? '&' + loc.search.slice(1).replace(/&/g, '~and~') : '') +
+        loc.hash
+      );
+    </script>
+  </head>
+  <body></body>
+</html>

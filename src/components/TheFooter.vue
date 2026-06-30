@@ -14,7 +14,7 @@ const quickLinks = [
 <template>
   <footer class="bg-card/50 border-t border-border">
     <div class="max-w-7xl mx-auto px-4 md:px-8 py-12 md:py-16">
-      <div class="grid grid-cols-1 md:grid-cols-3 gap-10 md:gap-16">
+      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-10 md:gap-12">
         <!-- Brand Column -->
         <div class="space-y-4">
           <div class="flex items-center gap-2">
@@ -49,6 +49,33 @@ const quickLinks = [
                 class="text-sm text-muted-foreground hover:text-cyan-accent transition-colors duration-200"
               >
                 {{ link.name }}
+              </RouterLink>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Legal -->
+        <div>
+          <h3
+            class="text-sm font-semibold uppercase tracking-wider text-foreground mb-4"
+          >
+            Legal
+          </h3>
+          <ul class="space-y-3">
+            <li>
+              <RouterLink
+                to="/privacy"
+                class="text-sm text-muted-foreground hover:text-cyan-accent transition-colors duration-200"
+              >
+                Privacy Policy
+              </RouterLink>
+            </li>
+            <li>
+              <RouterLink
+                to="/terms"
+                class="text-sm text-muted-foreground hover:text-cyan-accent transition-colors duration-200"
+              >
+                Terms of Service
               </RouterLink>
             </li>
           </ul>
