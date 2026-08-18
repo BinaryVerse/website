@@ -37,7 +37,7 @@ import { Card, CardContent } from '@/components/ui/card'
             <div class="space-y-4">
               <h2 class="text-xl font-semibold font-[family-name:var(--font-heading)]">1. Acceptance of Terms</h2>
               <p class="text-muted-foreground leading-relaxed">
-                By accessing and using the Quicky website at <a href="https://bversetech.com" class="text-brand hover:underline">bversetech.com</a>, you accept and agree to be bound by these Terms of Service. If you do not agree with any part of these terms, you may not access the website.
+                By accessing and using the Quicky website at <a href="https://quicky.bversetech.com" class="text-brand hover:underline">quicky.bversetech.com</a>, you accept and agree to be bound by these Terms of Service. If you do not agree with any part of these terms, you may not access the website.
               </p>
             </div>
 

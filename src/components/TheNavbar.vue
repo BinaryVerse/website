@@ -45,8 +45,13 @@ function isActive(path: string): boolean {
         <div class="w-8 h-8 rounded-lg bg-gradient-to-br from-brand to-red-500 flex items-center justify-center font-bold text-sm text-background">
           Q
         </div>
-        <span class="text-lg font-bold font-[family-name:var(--font-heading)] tracking-tight">
-          Quic<span class="text-brand">ky</span>
+        <span class="flex flex-col leading-none">
+          <span class="text-lg font-bold font-[family-name:var(--font-heading)] tracking-tight">
+            Quic<span class="text-brand">ky</span>
+          </span>
+          <span class="hidden sm:block text-[10px] text-muted-foreground tracking-wide">
+            by Binaryverse
+          </span>
         </span>
       </RouterLink>
 

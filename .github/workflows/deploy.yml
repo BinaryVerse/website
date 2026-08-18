@@ -33,9 +33,6 @@ jobs:
         run: pnpm install --frozen-lockfile
 
       - name: Build project
-        env:
-          VITE_TURNSTILE_SITE_KEY: ${{ vars.VITE_TURNSTILE_SITE_KEY }}
-          VITE_MAIL_API_URL: ${{ vars.VITE_MAIL_API_URL }}
         run: pnpm build
 
       - name: Deploy to GitHub Pages
@@ -43,4 +40,4 @@ jobs:
         with:
           folder: dist # The folder the action will deploy
           branch: main # The branch the action will push the dist files to
-          cname: bversetech.com
+          cname: quicky.bversetech.com

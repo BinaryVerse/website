@@ -76,7 +76,7 @@ const audiences = [
             />
             <div class="space-y-5 text-muted-foreground leading-relaxed">
               <p>
-                Quicky was built on a simple but powerful belief: <strong class="text-foreground">every local shop deserves an online storefront, and every customer deserves the convenience of ordering from the businesses already around them.</strong>
+                Quicky is a product by <strong class="text-foreground">Binaryverse</strong>, built on a simple but powerful belief: <strong class="text-foreground">every local shop deserves an online storefront, and every customer deserves the convenience of ordering from the businesses already around them.</strong>
               </p>
               <p>
                 Apps like Swiggy and Zomato proved that people love ordering from nearby places and having it show up at their door. We saw no reason that convenience should stop at restaurants — grocery stores, supermarkets, pharmacies, and stationery shops deserve it just as much.

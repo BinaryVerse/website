@@ -34,6 +34,14 @@ const quickLinks = [
             pharmacy, and every local shop in your neighborhood, delivered
             fast.
           </p>
+          <p class="text-xs text-muted-foreground">
+            A product by
+            <a
+              href="https://bversetech.com"
+              class="hover:text-brand transition-colors"
+              >Binaryverse</a
+            >.
+          </p>
         </div>
 
         <!-- Quick Links -->
@@ -124,8 +132,7 @@ const quickLinks = [
         class="flex flex-col md:flex-row items-center justify-between gap-4 text-xs text-muted-foreground"
       >
         <p>
-          &copy; {{ new Date().getFullYear() }} Quicky. All rights reserved.
-          <span class="text-muted-foreground/70">A product by Binaryverse.</span>
+          &copy; {{ new Date().getFullYear() }} Binaryverse. All rights reserved.
         </p>
         <p>Built with precision &amp; passion.</p>
       </div>

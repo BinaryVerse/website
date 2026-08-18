@@ -37,7 +37,7 @@ import { Card, CardContent } from '@/components/ui/card'
             <div class="space-y-4">
               <h2 class="text-xl font-semibold font-[family-name:var(--font-heading)]">1. Introduction</h2>
               <p class="text-muted-foreground leading-relaxed">
-Quicky, a product by Binaryverse ("we", "our", or "us"), is committed to protecting your personal information. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit our website at <a href="https://bversetech.com" class="text-brand hover:underline">bversetech.com</a> and use our services.
+Quicky, a product by Binaryverse ("we", "our", or "us"), is committed to protecting your personal information. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit our website at <a href="https://quicky.bversetech.com" class="text-brand hover:underline">quicky.bversetech.com</a> and use our services.
               </p>
             </div>
 
