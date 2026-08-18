@@ -17,7 +17,7 @@ const mobileOpen = ref(false)
 
 const navLinks = [
   { name: 'Home', path: '/' },
-  { name: 'Products', path: '/products' },
+  { name: 'Sell on Quicky', path: '/products' },
   { name: 'About', path: '/about' },
   { name: 'Contact', path: '/contact' },
 ]
@@ -42,11 +42,11 @@ function isActive(path: string): boolean {
     <nav class="max-w-7xl mx-auto px-4 md:px-8 h-16 flex items-center justify-between">
       <!-- Logo -->
       <RouterLink to="/" class="flex items-center gap-2 group">
-        <div class="w-8 h-8 rounded-lg bg-gradient-to-br from-cyan-accent to-blue-500 flex items-center justify-center font-bold text-sm text-background">
-          BV
+        <div class="w-8 h-8 rounded-lg bg-gradient-to-br from-brand to-red-500 flex items-center justify-center font-bold text-sm text-background">
+          Q
         </div>
         <span class="text-lg font-bold font-[family-name:var(--font-heading)] tracking-tight">
-          Binary<span class="text-cyan-accent">Verse</span>
+          Quic<span class="text-brand">ky</span>
         </span>
       </RouterLink>
 
@@ -57,14 +57,9 @@ function isActive(path: string): boolean {
           :key="link.path"
           :to="link.path"
           class="px-4 py-2 rounded-lg text-sm font-medium transition-all duration-200 hover:bg-white/5"
-          :class="isActive(link.path) ? 'text-cyan-accent bg-white/5' : 'text-muted-foreground hover:text-foreground'"
+          :class="isActive(link.path) ? 'text-brand bg-white/5' : 'text-muted-foreground hover:text-foreground'"
         >
           {{ link.name }}
-        </RouterLink>
-        <RouterLink to="/contact" class="ml-2">
-          <Button size="sm" class="bg-gradient-to-r from-cyan-accent to-blue-500 text-background font-semibold hover:opacity-90 transition-opacity">
-            Get Started
-          </Button>
         </RouterLink>
       </div>
 
@@ -80,7 +75,7 @@ function isActive(path: string): boolean {
             <SheetHeader>
               <SheetTitle class="text-left">
                 <span class="font-bold font-[family-name:var(--font-heading)]">
-                  Binary<span class="text-cyan-accent">Verse</span>
+                  Quic<span class="text-brand">ky</span>
                 </span>
               </SheetTitle>
             </SheetHeader>
@@ -90,15 +85,10 @@ function isActive(path: string): boolean {
                 :key="link.path"
                 :to="link.path"
                 class="px-4 py-3 rounded-lg text-sm font-medium transition-all duration-200 hover:bg-white/5"
-                :class="isActive(link.path) ? 'text-cyan-accent bg-white/5' : 'text-muted-foreground hover:text-foreground'"
+                :class="isActive(link.path) ? 'text-brand bg-white/5' : 'text-muted-foreground hover:text-foreground'"
                 @click="mobileOpen = false"
               >
                 {{ link.name }}
-              </RouterLink>
-              <RouterLink to="/contact" class="mt-4" @click="mobileOpen = false">
-                <Button class="w-full bg-gradient-to-r from-cyan-accent to-blue-500 text-background font-semibold">
-                  Get Started
-                </Button>
               </RouterLink>
             </div>
           </SheetContent>

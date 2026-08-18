@@ -7,12 +7,12 @@ import { Card, CardContent } from '@/components/ui/card'
   <div>
     <!-- ═══ Hero ═══ -->
     <section class="relative min-h-[40vh] flex items-center justify-center overflow-hidden pt-16">
-      <div class="absolute inset-0 bg-gradient-to-b from-blue-500/5 to-transparent" />
+      <div class="absolute inset-0 bg-gradient-to-b from-brand/5 to-transparent" />
       <div class="absolute inset-0 opacity-[0.04]"
-        style="background-image: radial-gradient(circle, rgba(0,242,254,0.4) 1px, transparent 1px); background-size: 24px 24px;"
+        style="background-image: radial-gradient(circle, rgba(255,107,53,0.4) 1px, transparent 1px); background-size: 24px 24px;"
       />
       <div class="relative max-w-7xl mx-auto px-4 md:px-8 text-center py-20">
-        <Badge variant="outline" class="border-cyan-accent/30 text-cyan-accent mb-6">
+        <Badge variant="outline" class="border-brand/30 text-brand mb-6">
           Legal
         </Badge>
         <h1 class="text-4xl md:text-5xl font-bold font-[family-name:var(--font-heading)] tracking-tight leading-[1.1] max-w-3xl mx-auto animate-fade-in-up">
@@ -31,13 +31,13 @@ import { Card, CardContent } from '@/components/ui/card'
         <Card class="bg-card/60 border-border">
           <CardContent class="p-8 md:p-12 space-y-8">
             <p class="text-sm text-muted-foreground">
-              Last updated: June 30, 2026
+              Last updated: August 18, 2026
             </p>
 
             <div class="space-y-4">
               <h2 class="text-xl font-semibold font-[family-name:var(--font-heading)]">1. Introduction</h2>
               <p class="text-muted-foreground leading-relaxed">
-                Binaryverse ("we", "our", or "us") is committed to protecting your personal information. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit our website at <a href="https://bversetech.com" class="text-cyan-accent hover:underline">bversetech.com</a> and use our services.
+Quicky, a product by Binaryverse ("we", "our", or "us"), is committed to protecting your personal information. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit our website at <a href="https://bversetech.com" class="text-brand hover:underline">bversetech.com</a> and use our services.
               </p>
             </div>
 
@@ -49,11 +49,11 @@ import { Card, CardContent } from '@/components/ui/card'
               <ul class="list-disc list-inside text-muted-foreground space-y-2 pl-4">
                 <li>Your name</li>
                 <li>Email address</li>
-                <li>Company name (optional)</li>
-                <li>Message content</li>
+                <li>Shop or company name (optional)</li>
+                <li>Message content, including details submitted when registering interest as a customer, shop owner, or delivery partner</li>
               </ul>
               <p class="text-muted-foreground leading-relaxed">
-                We do not use cookies for tracking purposes. We use Cloudflare Turnstile for bot verification, which may process certain browser-level data as described in <a href="https://www.cloudflare.com/privacypolicy/" target="_blank" rel="noopener noreferrer" class="text-cyan-accent hover:underline">Cloudflare's Privacy Policy</a>.
+                We do not use cookies for tracking purposes. We use Cloudflare Turnstile for bot verification, which may process certain browser-level data as described in <a href="https://www.cloudflare.com/privacypolicy/" target="_blank" rel="noopener noreferrer" class="text-brand hover:underline">Cloudflare's Privacy Policy</a>.
               </p>
             </div>
 
@@ -64,8 +64,8 @@ import { Card, CardContent } from '@/components/ui/card'
               </p>
               <ul class="list-disc list-inside text-muted-foreground space-y-2 pl-4">
                 <li>To respond to your inquiries and contact requests</li>
-                <li>To schedule product demos when requested</li>
-                <li>To communicate with you about our products and services</li>
+                <li>To follow up on early access, shop registration, and delivery partner sign-ups</li>
+                <li>To communicate with you about Quicky's launch and services</li>
                 <li>To improve our website and services</li>
               </ul>
             </div>
@@ -110,8 +110,8 @@ import { Card, CardContent } from '@/components/ui/card'
                 If you have any questions about this Privacy Policy or your personal data, please contact us at:
               </p>
               <p class="text-muted-foreground">
-                <a href="mailto:info@bversetech.com" class="text-cyan-accent hover:underline">info@bversetech.com</a><br />
-                Phone: <a href="tel:+917092208101" class="text-cyan-accent hover:underline">+91 7092208101</a><br />
+                <a href="mailto:info@bversetech.com" class="text-brand hover:underline">info@bversetech.com</a><br />
+                Phone: <a href="tel:+917092208101" class="text-brand hover:underline">+91 7092208101</a><br />
                 No. 145, F block, Ambedkar Street, Arumbakkam, MMDA Colony, Chennai-600106
               </p>
             </div>

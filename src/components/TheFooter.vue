@@ -5,7 +5,7 @@ import { MapPin, Phone, Mail } from '@lucide/vue'
 
 const quickLinks = [
   { name: 'Home', path: '/' },
-  { name: 'Products', path: '/products' },
+  { name: 'Sell on Quicky', path: '/products' },
   { name: 'About Us', path: '/about' },
   { name: 'Contact', path: '/contact' },
 ]
@@ -19,19 +19,20 @@ const quickLinks = [
         <div class="space-y-4">
           <div class="flex items-center gap-2">
             <div
-              class="w-8 h-8 rounded-lg bg-gradient-to-br from-cyan-accent to-blue-500 flex items-center justify-center font-bold text-sm text-background"
+              class="w-8 h-8 rounded-lg bg-gradient-to-br from-brand to-red-500 flex items-center justify-center font-bold text-sm text-background"
             >
-              BV
+              Q
             </div>
             <span
               class="text-lg font-bold font-[family-name:var(--font-heading)]"
             >
-              Binary<span class="text-cyan-accent">Verse</span>
+              Quic<span class="text-brand">ky</span>
             </span>
           </div>
           <p class="text-sm text-muted-foreground leading-relaxed max-w-xs">
-            Pioneering the future of industrial simulation with high-fidelity
-            digital twins powered by artificial intelligence.
+            The one app for everything nearby &mdash; groceries, stationery,
+            pharmacy, and every local shop in your neighborhood, delivered
+            fast.
           </p>
         </div>
 
@@ -46,7 +47,7 @@ const quickLinks = [
             <li v-for="link in quickLinks" :key="link.path">
               <RouterLink
                 :to="link.path"
-                class="text-sm text-muted-foreground hover:text-cyan-accent transition-colors duration-200"
+                class="text-sm text-muted-foreground hover:text-brand transition-colors duration-200"
               >
                 {{ link.name }}
               </RouterLink>
@@ -65,7 +66,7 @@ const quickLinks = [
             <li>
               <RouterLink
                 to="/privacy"
-                class="text-sm text-muted-foreground hover:text-cyan-accent transition-colors duration-200"
+                class="text-sm text-muted-foreground hover:text-brand transition-colors duration-200"
               >
                 Privacy Policy
               </RouterLink>
@@ -73,7 +74,7 @@ const quickLinks = [
             <li>
               <RouterLink
                 to="/terms"
-                class="text-sm text-muted-foreground hover:text-cyan-accent transition-colors duration-200"
+                class="text-sm text-muted-foreground hover:text-brand transition-colors duration-200"
               >
                 Terms of Service
               </RouterLink>
@@ -90,25 +91,25 @@ const quickLinks = [
           </h3>
           <ul class="space-y-3">
             <li class="flex items-start gap-3 text-sm text-muted-foreground">
-              <MapPin class="w-4 h-4 mt-0.5 flex-shrink-0 text-cyan-accent" />
+              <MapPin class="w-4 h-4 mt-0.5 flex-shrink-0 text-brand" />
               <span
                 >No. 145, F block, Ambedkar Street, Arumbakkam, MMDA Colony,
                 Chennai-600106</span
               >
             </li>
             <li class="flex items-center gap-3 text-sm text-muted-foreground">
-              <Phone class="w-4 h-4 flex-shrink-0 text-cyan-accent" />
+              <Phone class="w-4 h-4 flex-shrink-0 text-brand" />
               <a
                 href="tel:+917092208101"
-                class="hover:text-cyan-accent transition-colors"
+                class="hover:text-brand transition-colors"
                 >+91 7092208101</a
               >
             </li>
             <li class="flex items-center gap-3 text-sm text-muted-foreground">
-              <Mail class="w-4 h-4 flex-shrink-0 text-cyan-accent" />
+              <Mail class="w-4 h-4 flex-shrink-0 text-brand" />
               <a
                 href="mailto:info@bversetech.com"
-                class="hover:text-cyan-accent transition-colors"
+                class="hover:text-brand transition-colors"
                 >info@bversetech.com</a
               >
             </li>
@@ -123,8 +124,8 @@ const quickLinks = [
         class="flex flex-col md:flex-row items-center justify-between gap-4 text-xs text-muted-foreground"
       >
         <p>
-          &copy; {{ new Date().getFullYear() }} Binaryverse. All rights
-          reserved.
+          &copy; {{ new Date().getFullYear() }} Quicky. All rights reserved.
+          <span class="text-muted-foreground/70">A product by Binaryverse.</span>
         </p>
         <p>Built with precision &amp; passion.</p>
       </div>
